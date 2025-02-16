@@ -27,7 +27,7 @@ export default async function ProductDetails({ params }) {
                 </Link>
                 <p>{product.title}</p>
             </Breadcrumbs>
-            <Grid container direction={{xl: "row", lg: "row",md: "row",sm: "column", xs: "column"}} spacing={5} padding={{xs: 4,sm: 4, md: 5, lg: 7, xl: 7}} className={styles.productDetails}>
+            <Grid container direction={{xl: "row", lg: "row",md: "row",sm: "column", xs: "column"}} spacing={5} padding={{xs: 2,sm: 4, md: 5, lg: 7, xl: 7}} className={styles.productDetails}>
                 <Grid container size={{xs: 12, sm: 12, md: 6, lg: 6, xl: 6}} sx={{ minHeight: '400px',position: 'relative'}}>
                     <Image
                         src={product.image}
