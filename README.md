@@ -19,6 +19,7 @@
    - Image
    - Price
    - Category
+   - Rating
 
 ### 🛠️ Technologies Used
 - Next.js (for dynamic routing and rendering)
