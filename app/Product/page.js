@@ -9,7 +9,7 @@ export default function Products({ product }) {
     }
 
     return (
-        <>
+        <div>
             <div className={styles.productImage}>
                 {product.image && (
                     <Image
@@ -17,7 +17,6 @@ export default function Products({ product }) {
                         width={100} 
                         height={100}
                         alt="Product Image"
-                        loading="lazy"
                         unoptimized
                     />
                 )}
@@ -30,6 +29,6 @@ export default function Products({ product }) {
             <Link href={`/${product.id}`} passHref>
                 <button className={styles.showDetailsBtn}>Show Product Details</button>
             </Link>
-        </>
+        </div>
     )
 };

@@ -1,108 +1,87 @@
 .body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .productsCatalog{
-  width: 100%;
-  padding: 30px;
+    width: 100%;
+    padding: 30px;
 }
 .product{
-  line-height: 20px;
-  height: 300px;
-  border-radius: 7px;
-  padding: 20px 0 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: left;
+    line-height: 20px;
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
 }
 .productImage{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .showDetailsBtn{
-  background-color: rgb(21, 155, 127);
-  width: 100%;
-  border: none;
-  color: white;
-  border-radius: 7px;
-  cursor: pointer;
-  margin-top: 10px;
-  height: 35px;
-  transform: scale(1);
-  transition: transform 0.4s; 
+    background-color: rgb(21, 155, 127);
+    width: 100%;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 35px;
+    transform: scale(1);
+    transition: transform 0.4s; 
 }
 .showDetailsBtn:active{
-  transform: scale(0.9);
+    transform: scale(0.9);
 }
 .showDetailsBtn:hover{
-  background-color: rgb(26, 184, 149);
-  transition: 0.4s ease-in-out;
+    background-color: rgb(26, 184, 149);
+    transition: 0.4s ease-in-out;
 }
 .BuyNowBtn{
-  position: absolute;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 .productName{
-  color: rgb(54, 54, 54);
-  font-size: 17px;
-  font-weight: 600;
+    color: rgb(54, 54, 54);
+    font-size: 17px;
+    font-weight: 600;
 }
 .productPrice{
-  color: rgb(21, 155, 127);
-  font-size: 20px;
-  font-weight: 600;
+    color: rgb(21, 155, 127);
+    font-size: 20px;
+    font-weight: 600;
 }
 .productDescription{
-  white-space: nowrap;       
-  overflow: hidden;          
-  text-overflow: ellipsis;   
-  color: rgb(160, 160, 160);
-  width: 100%;     
+    white-space: nowrap;       
+    overflow: hidden;          
+    text-overflow: ellipsis;   
+    color: rgb(160, 160, 160);
+    width: 100%;     
 }
 .breadcrumbHome{
-  text-decoration: none;
-  color: rgb(21, 155, 127);
-  font-weight: 600;
+    text-decoration: none;
+    color: rgb(21, 155, 127);
+    font-weight: 600;
 }
 .breadcrumbHome:hover{
-  color: rgb(26, 184, 149);
-  transition: .3s ease-in-out;
+    color: rgb(26, 184, 149);
+    transition: .3s ease-in-out;
 }
-.productDetailsContainer{
-  padding: 30px;
+.breadcrumb{
+    padding: 30px;
 }
 .reviewsCount{
-  color: #808080;
+    color: #808080;
 }
 .category{
-  font-size: 18px;
-  color: #808080;
+    font-size: 18px;
+    color: #808080;
 }
 .productDetails{
-  line-height: 20px;
-}
-.searchBarInput{
-  border: none;
-  outline: none;
-  width: 85%;
-  background-color: transparent;
-  font-size: 15px;
-  color: #808080;
-}
-.searchBar{
-  margin: 30px;
-  height: 40px;
-  border-radius: 7px;
-  box-shadow: 1px 1px 6px rgb(233, 233, 233);
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 0 10px;
-  margin-left: auto;
-  color: #808080;
+    line-height: 20px;
 }

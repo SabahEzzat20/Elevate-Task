@@ -21,21 +21,21 @@ export default async function ProductDetails({ params }) {
     const product = getProductById(+ ProductId);
     return (
         <Box className={styles.productDetailsContainer}>
-            <Breadcrumbs aria-label="breadcrumb">
+            <Breadcrumbs aria-label="breadcrumb" className={styles.breadcrumb}>
                 <Link underline="hover" color="inherit" href="/" className={styles.breadcrumbHome}>
                     Home
                 </Link>
                 <p>{product.title}</p>
             </Breadcrumbs>
-            <Grid container direction={{xl: "row", lg: "row",md: "row",sm: "column", xs: "column"}} spacing={5} padding={7} className={styles.productDetails}>
-                <Grid container size={{xs: 12, sm: 12, md: 6, lg: 6, xl: 6}} sx={{ minHeight: '400px',width: '300px',position: 'relative'}}>
+            <Grid container direction={{xl: "row", lg: "row",md: "row",sm: "column", xs: "column"}} spacing={5} padding={{xs: 4,sm: 4, md: 5, lg: 7, xl: 7}} className={styles.productDetails}>
+                <Grid container size={{xs: 12, sm: 12, md: 6, lg: 6, xl: 6}} sx={{ minHeight: '400px',position: 'relative'}}>
                     <Image
                         src={product.image}
                         layout="fill"
                         alt="Product Image"
                         loading="lazy"
                         unoptimized
-                        style={{width: '100%',objectFit:'contain'}}
+                        style={{objectFit: 'contain'}}
                     />
                 </Grid>
                 <Grid container size={{xs: 12, sm: 12, md: 6, lg: 6, xl: 6}} sx={{minHeight: '400px'}}>
