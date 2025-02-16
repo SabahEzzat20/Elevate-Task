@@ -21,12 +21,6 @@
    - Category
    - Rating
 
-### 🛠️ Technologies Used
-- Next.js (for dynamic routing and rendering)
-- Fake Store API (for fetching product data)
-- Material-UI (for styling and responsiveness)
-- Axios (for API requests)
-
 ### 🏗️ Installation & Setup
 1. Clone the repository
 ```bash
@@ -36,6 +30,8 @@ cd tech-task
 2. Install dependencies
 ```bash
 npm install
+npm install @mui/material @emotion/react @emotion/styled
+npm install axios
 ```
 3. Run the development server
 ```bash
