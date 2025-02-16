@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### 🛍️ Responsive Products Gallery
+- This project is a responsive product gallery website that fetches and displays products using the Fake Store API. It is built with Next.js and styled using Material-UI for a professional look.
 
-## Getting Started
+### 🚀 Features:
+**🏬 Products Page**
+   - Fetches products from the Fake Store API.
+   - Displays product details, including:
+     - Name
+     - Image
+     - Price
+     - Short Description
+   - Styled using Tailwind CSS or Material-UI.
 
-First, run the development server:
+### 📝 Product Details Page
+- Clicking a product navigates to a dynamic details page using Next.js routing.
+- Displays full product details:
+   - Product Name
+   - Full Description
+   - Image
+   - Price
+   - Category
 
+### 🛠️ Technologies Used
+- Next.js (for dynamic routing and rendering)
+- Fake Store API (for fetching product data)
+- Material-UI (for styling and responsiveness)
+- Axios (for API requests)
+
+### 🏗️ Installation & Setup
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/tech-task.git
+cd tech-task
+```
+2. Install dependencies
+```bash
+npm install
+```
+3. Run the development server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+4. Open in browser
+- Go to `http://localhost:3000`
+
+### 🌐 API Endpoint
+This project fetches product data from: [🔗 Fake Store API](https://fakestoreapi.com/products)
+
+### 📁 Project Structure
+```bash
+/tech-task
+│── /.next            # Next.js build files  
+│── /app  
+│   ├── /[ProductId]  # Dynamic product details page  
+│   │   ├── page.js  
+│   ├── /Product      # Products listing page  
+│   │   ├── page.js  
+│   ├── favicon.ico  
+│   ├── layout.js     # Layout configuration  
+│   ├── page.js       # Homepage  
+│   ├── page.module.css # Styles  
+│── /public           # Static assets  
+│   ├── file.svg  
+│   ├── globe.svg  
+│   ├── next.svg  
+│   ├── vercel.svg  
+│   ├── window.svg  
+│── /node_modules     # Dependencies  
+│── .gitignore  
+│── jsconfig.json  
+│── next.config.mjs  
+│── package-lock.json  
+│── package.json  
+│── README.md  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📌 Live Demo
+[🔗 Live Project Link](https://elevate-task-roan.vercel.app/)
