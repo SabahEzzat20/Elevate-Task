@@ -4,17 +4,23 @@ import styles from '../page.module.css'
 import Link from "next/link";
 
 export default function Products({ product }) {
+    if (!product) {
+        return <p>Product data is unavailable</p>;
+    }
+
     return (
         <>
             <div className={styles.productImage}>
-                <Image
-                    src={product.image}
-                    width={100} 
-                    height={100}
-                    alt="Product Image"
-                    loading="lazy"
-                    unoptimized
-                />
+                {product.image && (
+                    <Image
+                        src={product.image}
+                        width={100} 
+                        height={100}
+                        alt="Product Image"
+                        loading="lazy"
+                        unoptimized
+                    />
+                )}
             </div>
             <div>
                 <p className={styles.productName}>{product.title}</p>
