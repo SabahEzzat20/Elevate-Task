@@ -61,11 +61,6 @@ This project fetches product data from: [🔗 Fake Store API](https://fakestorea
 │   ├── page.js       # Homepage  
 │   ├── page.module.css # Styles  
 │── /public           # Static assets  
-│   ├── file.svg  
-│   ├── globe.svg  
-│   ├── next.svg  
-│   ├── vercel.svg  
-│   ├── window.svg  
 │── /node_modules     # Dependencies  
 │── .gitignore  
 │── jsconfig.json  
