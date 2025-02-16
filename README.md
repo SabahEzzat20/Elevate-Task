@@ -9,7 +9,7 @@
      - Image
      - Price
      - Short Description
-   - Styled using Tailwind CSS or Material-UI.
+   - Styled using Material-UI.
 
 ### 📝 Product Details Page
 - Clicking a product navigates to a dynamic details page using Next.js routing.
