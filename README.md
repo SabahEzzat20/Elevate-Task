@@ -30,7 +30,7 @@
 ### 🏗️ Installation & Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/tech-task.git
+git clone https://github.com/SabahEzzat20/Elevate-Task.git
 cd tech-task
 ```
 2. Install dependencies
