@@ -1,5 +1,5 @@
 ### 🛍️ Responsive Products Gallery
-- This project is a responsive product gallery website that fetches and displays products using the Fake Store API. It is built with Next.js and styled using Material-UI for a professional look.
+- Responsive product gallery website that fetches and displays products using the Fake Store API. It is built with Next.js and styled using Material-UI for a professional look.
 
 ### 🚀 Features:
 **🏬 Products Page**
